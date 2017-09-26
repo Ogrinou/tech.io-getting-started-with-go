@@ -22,7 +22,7 @@ func main() {
 }
 ```
 
-Note the usage of `fmt.Scanln`. This is to ensure that the main function needs to w8 for input thus giving a chance to the goroutine to run.
+Note the usage of `fmt.Scanln`. This is to ensure that the main function needs to wait for input thus giving a chance to the goroutine to run.
 
 Normally when we invoke a function our program will execute all the statements in a function and then return to the next line following the invocation. 
 
